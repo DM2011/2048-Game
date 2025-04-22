@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #faf8ef;
+    margin: 0;
+    padding-top: 30px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #776e65;
+  }
+  
+  #score {
+    margin: 10px 0 20px;
+    font-size: 24px;
+    color: #776e65;
+  }
+  
+  #board {
+    width: 370px;
+    margin: auto;
+    background: #bbada0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    margin: 5px;
+    background: #cdc1b4;
+    border-radius: 5px;
+    color: #776e65;
+    transition: background 0.3s ease;
+  }
+  
+  /* Colored tiles */
+  .tile-2 { background: #eee4da; }
+  .tile-4 { background: #ede0c8; }
+  .tile-8 { background: #f2b179; color: #f9f6f2; }
+  .tile-16 { background: #f59563; color: #f9f6f2; }
+  .tile-32 { background: #f67c5f; color: #f9f6f2; }
+  .tile-64 { background: #f65e3b; color: #f9f6f2; }
+  .tile-128 { background: #edcf72; color: #f9f6f2; }
+  .tile-256 { background: #edcc61; color: #f9f6f2; }
+  .tile-512 { background: #edc850; color: #f9f6f2; }
+  .tile-1024 { background: #edc53f; color: #f9f6f2; }
+  .tile-2048 { background: #edc22e; color: #f9f6f2; }
+  
